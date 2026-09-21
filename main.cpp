@@ -1,22 +1,43 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
-// Project 1 — Your Name
+// Project 1 — Cesar Flores 
 // CIS 5 Week 04 · Student card
 
 int main() {
   const int CURRENT_YEAR = 2026;
 
-  // TODO (week 3): declare and initialize the four boxes
-  //   first (std::string), age (int), credits (int), gpa (double)
+  string firstName = "";
+  int age = 0;
+  int credits = 0;
+  double gpa = 0.0;
+  int grad_year = CURRENT_YEAR + 4;
+  
 
-  // TODO (week 2): a cout question, then a cin into the box — four times
+  cout << "Enter First Name: ";
+  cin >> firstName;
 
-  // TODO (week 4): one computed line with an operator
-  //   int grad_year = CURRENT_YEAR + 4;
+  cout << "Enter Age: ";
+  cin >> age;
 
-  // TODO (weeks 1-4): print the card from the variable names
-  //   header line, one labeled line per variable, then the computed value
+  cout << "Enter Credits: ";
+  cin >> credits;
+
+  cout << "Enter GPA: ";
+  cin >> gpa;
+  
+  cout << endl;
+
+  cout << "=== Student Card ===" << endl;
+  cout << "Name: " << firstName << endl;
+  cout << "Age: " << age << endl;
+  cout << "Credits: " << credits << endl;
+  cout << "GPA: " << gpa << endl;
+  cout << "Expected Graduation: " << grad_year << endl;
+  cout << endl;
+
+
 
   return 0;
 }
