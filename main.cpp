@@ -37,7 +37,5 @@ int main() {
   cout << "Expected Graduation: " << grad_year << endl;
   cout << endl;
 
-
-
   return 0;
 }
